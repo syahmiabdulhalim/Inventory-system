@@ -8,7 +8,10 @@
 </head>
 <body class="bg-gray-100 min-h-screen">
     <nav class="bg-white shadow px-6 py-4 mb-8">
-        <h1 class="text-xl font-bold text-gray-800">Inventory System</h1>
+       <div class="flex items-center gap-6">
+    <h1 class="text-xl font-bold text-gray-800">Inventory System</h1>
+    <a href="{{ route('dashboard') }}" class="text-sm text-gray-500 hover:text-gray-800">← Dashboard</a>
+</div>
     </nav>
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center mb-6">
